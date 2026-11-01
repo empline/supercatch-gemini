@@ -1,0 +1,28 @@
+{
+  "name": "supercatch",
+  "version": "1.0.0",
+  "description": "Search SuperCatch cards, prices, stores, and docs; account reads require separate OAuth consent.",
+  "mcpServers": {
+    "supercatch": {
+      "httpUrl": "https://supercatch.com/mcp",
+      "oauth": {
+        "enabled": true,
+        "scopes": ["account:read", "store:read", "docs:read"]
+      },
+      "includeTools": [
+        "search_marketplace",
+        "lookup_product",
+        "lookup_store",
+        "get_help_resource",
+        "search_docs",
+        "get_api_catalog",
+        "search_account_docs",
+        "my_orders",
+        "my_watchlist",
+        "store_listings",
+        "store_inventory",
+        "store_orders"
+      ]
+    }
+  }
+}
