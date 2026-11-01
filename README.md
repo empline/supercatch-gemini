@@ -14,7 +14,7 @@ gemini extensions install https://github.com/empline/supercatch-gemini
 Restart an existing Gemini CLI session after installation. Run `/mcp` inside
 Gemini CLI to inspect the connection. Public searches need no SuperCatch account
 or API key. The extension connects over Streamable HTTP to
-`https://supercatch.com/mcp`; it installs no local server or extra dependencies.
+`https://supercatch.com/api/mcp`; it installs no local server or extra dependencies.
 
 ## Try it
 
